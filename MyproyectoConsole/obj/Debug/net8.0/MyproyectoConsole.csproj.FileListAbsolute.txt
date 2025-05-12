@@ -1,0 +1,15 @@
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\bin\Debug\net8.0\MyproyectoConsole.exe
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\bin\Debug\net8.0\MyproyectoConsole.deps.json
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\bin\Debug\net8.0\MyproyectoConsole.runtimeconfig.json
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\bin\Debug\net8.0\MyproyectoConsole.dll
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\bin\Debug\net8.0\MyproyectoConsole.pdb
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.AssemblyInfoInputs.cache
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.AssemblyInfo.cs
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.csproj.CoreCompileInputs.cache
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.sourcelink.json
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.dll
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\refint\MyproyectoConsole.dll
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.pdb
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\MyproyectoConsole.genruntimeconfig.cache
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\obj\Debug\net8.0\ref\MyproyectoConsole.dll

@@ -1,0 +1,15 @@
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\bin\Debug\net8.0\SelectConsole.exe
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\bin\Debug\net8.0\SelectConsole.deps.json
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\bin\Debug\net8.0\SelectConsole.runtimeconfig.json
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\bin\Debug\net8.0\SelectConsole.dll
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\bin\Debug\net8.0\SelectConsole.pdb
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.AssemblyInfoInputs.cache
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.AssemblyInfo.cs
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.csproj.CoreCompileInputs.cache
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.sourcelink.json
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.dll
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\refint\SelectConsole.dll
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.pdb
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\SelectConsole.genruntimeconfig.cache
+C:\Users\MIGUEL\Documents\workspace\cursoLinq\SelectConsole\obj\Debug\net8.0\ref\SelectConsole.dll

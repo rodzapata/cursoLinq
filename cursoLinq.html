@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de C#</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- <li id="$(index)">$(el)</li> -->
+    <h1>Curso de Linq</h1>
+    <h2>Indice Tematico</h2>
+    <ul>
+      <li><a href="cursoLinq.html#referencia">Referencias</a></li>
+      <li><a href="cursoLinq.html#tablaTemporal">tabla Temporal</a></li>
+    </ul>
+
+    <a href="cursoLinq.html">⏫</a>
+    <hr />
+    <h2 id="referencia">Referencias</h2>
+    <article>
+      tomamos el curso de Nico
+      <a
+        href="https://www.youtube.com/watch?v=CSRMkExmogQ&list=PLM-p96nOrGcYGyfYpStN3jnaTuIosO3V5"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Linq por Nico</a
+      >
+      <br />
+    </article>
+
+    <a href="cursoLinq.html">⏫</a>
+    <hr />
+    <h2 id="tablaTemporal">Tabla temporal</h2>
+    simplemente lo creamos en memoria de la siguiente forma: <br />
+    <pre>
+        List&lt;DianSubir> dianSubirList = new List&lt;DianSubir>(); <br>
+    </pre>
+    Donde DianSubir es una clase como :
+    <pre>
+    public class DianSubir
+    {
+        public string TipoDoc { get; set; }
+        public string Cufe { get; set; }
+        public string Folio { get; set; }
+        public string Prefijo { get; set; }
+        public string Divisa { get; set; }
+        public string FormaPago { get; set; }
+        public string MedioPago { get; set; }
+        public DateTime? FechaEmision { get; set; }
+        public DateTime? FechaRecepcion { get; set; }
+        public string NitEmisor { get; set; }
+        public string NombreEmisor { get; set; }
+        public string NitReceptor { get; set; }
+        public string NombreReceptor { get; set; }
+        public string CIva { get; set; }
+        public string CIca { get; set; }
+        public string CIc { get; set; }
+        public string CInc { get; set; }
+        public string CTimbre { get; set; }
+        public string CIncBolsa { get; set; }
+        public string CInCarbono { get; set; }
+        public string CInCombustible { get; set; }
+        public string CIcDatos { get; set; }
+        public string CIcL { get; set; }
+        public string CInPp { get; set; }
+        public string CIBua { get; set; }
+        public string CICui { get; set; }
+        public string CReteIva { get; set; }
+        public string CReteRenta { get; set; }
+        public string CReteIca { get; set; }
+        public string CTotal { get; set; }
+        public string Estado { get; set; }
+        public string Grupo { get; set; }
+    }
+
+    </pre>
+
+    <article></article>
+  </body>
+</html>
