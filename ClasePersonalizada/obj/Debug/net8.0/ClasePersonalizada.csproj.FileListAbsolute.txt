@@ -1,0 +1,15 @@
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\bin\Debug\net8.0\ClasePersonalizada.exe
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\bin\Debug\net8.0\ClasePersonalizada.deps.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\bin\Debug\net8.0\ClasePersonalizada.runtimeconfig.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\bin\Debug\net8.0\ClasePersonalizada.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\bin\Debug\net8.0\ClasePersonalizada.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.AssemblyInfoInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.AssemblyInfo.cs
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.sourcelink.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\refint\ClasePersonalizada.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ClasePersonalizada.genruntimeconfig.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\ClasePersonalizada\obj\Debug\net8.0\ref\ClasePersonalizada.dll

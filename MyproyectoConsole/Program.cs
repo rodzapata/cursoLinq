@@ -1,36 +1,39 @@
-﻿using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class Program
 {
     private static void Main(string[] args)
     {
-    /*
-        static IEnumerable<string> Personas()
+        Console.WriteLine("Curso de LINQ");
+        Console.WriteLine("Method Syntax");
+
+        string[] arrayPersonas={"rodney","cecilia"};
+        List<string> listPersonas = new  List<string>{"zapata","cantillo"};
+
+/*
+        static IEnumerable<string> ListPersonas()
         {
-            yield return "rodney";
-            yield return "Cecilia Mercedes":
-            yield return "samuel David";
-            yield return "Juan Miguel";
+            yield return "palacio";
+            yield return "colon";
         }
-    */
-        Console.WriteLine("curso de linQ");
-        Console.WriteLine("query Syntax");
-        //Armamos el query
+*/
+/*
+        System.Console.WriteLine(" --- metodo SQL ---");
+        var queryPersona= from p in listPersonas
+                    select p;
+*/
 
-        string[] Personas={"rodney","cecilia"};
-
-        IEnumerable<string> valores=from n in Personas
-                    select n;
-
-        /*
-        var personas = from p in Personas()
-                       select p;
-        */
-        //ejecutamos el Query a trabez de un ciclo
-        foreach (var p in valores)
+        System.Console.WriteLine(" --- metodo arrow Fuction ---");
+        var queryPersona = listPersonas.Select(p => p );
+/*
+        System.Console.WriteLine(" --- metodo arrow Fuction IEnumerable---");
+        var queryPersona = ListPersonas().Select(p => p );
+*/
+        foreach (var pa in queryPersona)
         {
-            Console.WriteLine(p);
+            System.Console.WriteLine(pa);
         }
-
-    }
+   }
 }

@@ -1,0 +1,15 @@
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\bin\Debug\net8.0\Mystructure.exe
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\bin\Debug\net8.0\Mystructure.deps.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\bin\Debug\net8.0\Mystructure.runtimeconfig.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\bin\Debug\net8.0\Mystructure.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\bin\Debug\net8.0\Mystructure.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.AssemblyInfoInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.AssemblyInfo.cs
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.sourcelink.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\refint\Mystructure.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\Mystructure.genruntimeconfig.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Mystructure\obj\Debug\net8.0\ref\Mystructure.dll

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curso de C#</title>
+    <title>Curso de Linq</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -14,6 +14,9 @@
     <h2>Indice Tematico</h2>
     <ul>
       <li><a href="cursoLinq.html#referencia">Referencias</a></li>
+      <li><a href="cursoLinq.html#select">select</a></li>
+      <li><a href="cursoLinq.html#where">where</a></li>
+      <li><a href="cursoLinq.html#cross">cross o SelectMany</a></li>
       <li><a href="cursoLinq.html#tablaTemporal">tabla Temporal</a></li>
     </ul>
 
@@ -23,12 +26,141 @@
     <article>
       tomamos el curso de Nico
       <a
-        href="https://www.youtube.com/watch?v=CSRMkExmogQ&list=PLM-p96nOrGcYGyfYpStN3jnaTuIosO3V5"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Linq por Nico</a
-      >
-      <br />
+        href="https://www.youtube.com/watch?v=CSRMkExmogQ&list=PLM-p96nOrGcYGyfYpStN3jnaTuIosO3V5" target="_blank" rel="noopener noreferrer">Linq por Nico</a>
+      ademas el tuotorial <a href="https://www.youtube.com/watch?v=J5esQgwUtp8&list=PL9Bm8IOGYHA1AQrZzl5RptN2aKG-v9wYR&index=1" target="_blank" rel="noopener noreferrer">Cacmis</a> <br>
+ 
+    </article>
+
+    <a href="cursoLinq.html">⏫</a>
+    <hr />
+    <h2 id="select">Select</h2>
+    <article>
+      Los Querys de Sqlserver se pueden hacer utilizando <STRONg>Linq</STRONg> existen dos sintaxys una muy parecida a la de Sql. <br>
+      y la otra es usando <strong>arrow function</strong>, por ejemplo : <br>
+      desde un array List vamos a consultar y tambien desde un IEnumerable: 
+      <pre>
+          List&lt;string> personaList = new List&lt;string>{"rodney","juan miguel","samuel"};
+          IEnumerable&lt;string> personaEnum = new  List&lt;string>{"zapata","palacio","cantillo"};
+          
+          var queryList = personaList.Select(p=> p);
+          var queryIenum = personaEnum.Select(p=> p);
+          
+          System.Console.WriteLine("-----listado con List -----");
+          foreach (var pl in queryList)
+          {
+              Console.WriteLine(pl);
+          }
+          
+          System.Console.WriteLine("-----listado con IEnumerable -----");
+          foreach (var pe in queryIenum)
+          {
+              Console.WriteLine(pe);
+          }
+          
+      </pre>
+      El IEnumerable tiene como ventajas que es mas rapido y consume muchos menos memoria y como desventaja es que es de solo lectura. <br>
+      Ahora crearemos una clase con mentodos IEnumrebles: <br>
+      <pre>
+
+        using System;
+        using System.Collections.Generic;
+  
+        Console.WriteLine("Clase personalizada");
+  
+        var queryPersona = ObtenerPersonas()
+              .Select(p => p);
+  
+        foreach (var p in queryPersona)
+        {
+          Console.WriteLine($"{p.Nombre}, {p.Edad} años");
+        }
+  
+        static IEnumerable<Persona> ObtenerPersonas()
+        {
+          yield return new Persona { Nombre = "rodney", Edad = 50 };
+          yield return new Persona { Nombre = "Cecilia", Edad = 37 };
+        }
+  
+        class Persona
+        {
+          public string Nombre { get; set; } = "";
+          public int Edad { get; set; }
+        }
+
+      </pre>  
+    </article>
+
+    <a href="cursoLinq.html">⏫</a>
+    <hr />
+    <h2 id="where">Where</h2>
+    <article>
+      Podemos consultar la informacion estableciendo una condicion de busqueda por ejemplo todas las persona con edad > 38 seria: <br>
+      <pre>
+        var queryPersona = ObtenerPersonas().Where(p => p.Edad>38)
+            .Select(p => p);
+      </pre>
+    </article>
+
+    <a href="cursoLinq.html">⏫</a>
+    <hr />
+    <h2 id="cross">Cross o SelectMany</h2>
+    <article>
+      Consite en combinar tolos los registros de una tabla con cada uno de los registro de una segunda tabla, tambien se le conoce como
+      plano cartesiano y el codigo en Sql es : <br>
+      <pre>
+        select 
+          a.nombre as agencia, u.nombre as undnegocio 
+	      from 
+          grl_agencia a
+	      cross join
+          grl_undnegocio u
+      </pre>
+      el codigo equivalente en linq seria: 
+      <pre>
+        var unirSucursalUndNegocio = Sucursal().SelectMany(
+            suc => UndNegocio()
+            .Select(und => 
+            new {sucursal=suc, undnegocio=und})
+         );
+      </pre>
+      El codigo completo creando la clase de sucursal y la clase de unidad de negocio quedaria aí: <br>
+      <pre>
+        Console.WriteLine("select Many IEnumerable");
+        static IEnumerable&lt;string> Sucursal()
+        {
+          yield return "Barranquilla";
+          yield return "soledad";
+          yield return "bogota";
+        }
+
+        static IEnumerable&lt;string> UndNegocio()
+        {
+          yield return "mantenimiento";
+          yield return "proyectos";
+          yield return "servicios";
+          yield return "montages";
+        }
+
+        //armamos el Linq de Sql
+        /*
+        System.Console.WriteLine("----Query con SQL------");
+        var unirSucursalUndNegocio = from s in Sucursal()
+                             from u in UndNegocio()
+                             select new {Sucursal= s, UnidadNegocio =u};
+        */                             
+
+        System.Console.WriteLine("----Query con ArrowFuction------");
+        var unirSucursalUndNegocio = Sucursal().SelectMany(
+            suc => UndNegocio()
+            .Select(und => 
+            new {sucursal=suc, undnegocio=und})
+         );
+
+        foreach (var unir in unirSucursalUndNegocio)
+        {
+          System.Console.WriteLine(unir);
+        }
+      </pre>
     </article>
 
     <a href="cursoLinq.html">⏫</a>

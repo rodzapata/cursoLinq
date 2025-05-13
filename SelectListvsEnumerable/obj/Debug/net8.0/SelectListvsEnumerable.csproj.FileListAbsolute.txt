@@ -1,0 +1,15 @@
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\bin\Debug\net8.0\SelectListvsEnumerable.exe
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\bin\Debug\net8.0\SelectListvsEnumerable.deps.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\bin\Debug\net8.0\SelectListvsEnumerable.runtimeconfig.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\bin\Debug\net8.0\SelectListvsEnumerable.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\bin\Debug\net8.0\SelectListvsEnumerable.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.AssemblyInfoInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.AssemblyInfo.cs
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.sourcelink.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\refint\SelectListvsEnumerable.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\SelectListvsEnumerable.genruntimeconfig.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SelectListvsEnumerable\obj\Debug\net8.0\ref\SelectListvsEnumerable.dll

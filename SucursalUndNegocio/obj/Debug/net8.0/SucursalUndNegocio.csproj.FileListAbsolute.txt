@@ -1,0 +1,15 @@
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\bin\Debug\net8.0\SucursalUndNegocio.exe
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\bin\Debug\net8.0\SucursalUndNegocio.deps.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\bin\Debug\net8.0\SucursalUndNegocio.runtimeconfig.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\bin\Debug\net8.0\SucursalUndNegocio.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\bin\Debug\net8.0\SucursalUndNegocio.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.AssemblyInfoInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.AssemblyInfo.cs
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.sourcelink.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\refint\SucursalUndNegocio.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\SucursalUndNegocio.genruntimeconfig.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\SucursalUndNegocio\obj\Debug\net8.0\ref\SucursalUndNegocio.dll

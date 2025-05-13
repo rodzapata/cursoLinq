@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyproyectoConsole
-build_property.ProjectDir = C:\Users\MIGUEL\Documents\workspace\cursoLinq\MyproyectoConsole\
+build_property.ProjectDir = C:\Users\Ryzen\Documents\workspace\cursoLinq\MyproyectoConsole\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
