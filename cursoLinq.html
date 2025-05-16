@@ -17,6 +17,7 @@
       <li><a href="cursoLinq.html#select">select</a></li>
       <li><a href="cursoLinq.html#where">where</a></li>
       <li><a href="cursoLinq.html#cross">cross o SelectMany</a></li>
+      <li><a href="cursoLinq.html#union">union de tablas </a></li>
       <li><a href="cursoLinq.html#tablaTemporal">tabla Temporal</a></li>
     </ul>
 
@@ -160,6 +161,36 @@
         {
           System.Console.WriteLine(unir);
         }
+      </pre>
+    </article>
+
+    <a href="cursoLinq.html">⏫</a>
+    <hr />
+    <h2 id="union">union de tablas</h2>
+    <article>
+      Consiste en un queri donde se consulta la primera tabla y inmedianente despues se agregan los regitros de la segunda tabla, el 
+      codigo en sql seria: <br>
+      <pre>
+        SELECT 
+          Nombre AS Valor
+        FROM Personas
+        UNION
+        SELECT 
+          Apellido AS Valor
+        FROM Clientes;
+      </pre>
+      Con este no duplica informacion , si queremos datos duplicado tenemos que usar <strong>UNION ALL</strong> <br>
+      El codigo en linq seria: <br>
+      <pre>
+        string[] nombres={"rodney","cecilia"};
+        string[] apellidos={"zapata","cantillo"};
+
+        var nombresApellidos = (from n in nombres
+                    select n).Union(apellidos);
+      </pre>
+      y el codigo en arrow funcion seria: <br>
+      <pre>
+        var nombresApellidos = nombres.Select(n => n).Union(apellidos);
       </pre>
     </article>
 

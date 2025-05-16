@@ -1,0 +1,15 @@
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\bin\Debug\net8.0\Union.exe
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\bin\Debug\net8.0\Union.deps.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\bin\Debug\net8.0\Union.runtimeconfig.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\bin\Debug\net8.0\Union.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\bin\Debug\net8.0\Union.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.AssemblyInfoInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.AssemblyInfo.cs
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.csproj.CoreCompileInputs.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.sourcelink.json
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\refint\Union.dll
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.pdb
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\Union.genruntimeconfig.cache
+C:\Users\Ryzen\Documents\workspace\cursoLinq\Union\obj\Debug\net8.0\ref\Union.dll
